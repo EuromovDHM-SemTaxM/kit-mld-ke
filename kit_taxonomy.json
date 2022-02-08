@@ -1,0 +1,995 @@
+[
+  {
+    "id": 81,
+    "label": "modalities",
+    "children": [
+      {
+        "id": 92,
+        "label": "body parts",
+        "children": [
+          {
+            "id": 120,
+            "label": "abdomen",
+            "children": []
+          },
+          {
+            "id": 94,
+            "label": "back",
+            "children": []
+          },
+          {
+            "id": 95,
+            "label": "front",
+            "children": []
+          },
+          {
+            "id": 93,
+            "label": "head",
+            "children": []
+          },
+          {
+            "id": 164,
+            "label": "index finger",
+            "children": []
+          },
+          {
+            "id": 96,
+            "label": "left arm",
+            "children": []
+          },
+          {
+            "id": 162,
+            "label": "left hand",
+            "children": []
+          },
+          {
+            "id": 113,
+            "label": "left leg",
+            "children": []
+          },
+          {
+            "id": 167,
+            "label": "little finger",
+            "children": []
+          },
+          {
+            "id": 165,
+            "label": "middle finger",
+            "children": []
+          },
+          {
+            "id": 97,
+            "label": "right arm",
+            "children": []
+          },
+          {
+            "id": 161,
+            "label": "right hand",
+            "children": []
+          },
+          {
+            "id": 112,
+            "label": "right leg",
+            "children": []
+          },
+          {
+            "id": 166,
+            "label": "ring finger",
+            "children": []
+          },
+          {
+            "id": 163,
+            "label": "thumb",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "label": "direction",
+        "children": [
+          {
+            "id": 34,
+            "label": "backward",
+            "children": []
+          },
+          {
+            "id": 37,
+            "label": "circle",
+            "children": []
+          },
+          {
+            "id": 141,
+            "label": "clockwise",
+            "children": []
+          },
+          {
+            "id": 142,
+            "label": "counterclockwise",
+            "children": []
+          },
+          {
+            "id": 134,
+            "label": "diagonal",
+            "children": []
+          },
+          {
+            "id": 127,
+            "label": "down",
+            "children": []
+          },
+          {
+            "id": 16,
+            "label": "downward",
+            "children": []
+          },
+          {
+            "id": 33,
+            "label": "forward",
+            "children": []
+          },
+          {
+            "id": 115,
+            "label": "horizontal",
+            "children": []
+          },
+          {
+            "id": 110,
+            "label": "in",
+            "children": []
+          },
+          {
+            "id": 17,
+            "label": "left",
+            "children": []
+          },
+          {
+            "id": 139,
+            "label": "leftward",
+            "children": []
+          },
+          {
+            "id": 111,
+            "label": "out",
+            "children": []
+          },
+          {
+            "id": 18,
+            "label": "right",
+            "children": []
+          },
+          {
+            "id": 140,
+            "label": "rightward",
+            "children": []
+          },
+          {
+            "id": 137,
+            "label": "semicircle",
+            "children": []
+          },
+          {
+            "id": 181,
+            "label": "sideward",
+            "children": []
+          },
+          {
+            "id": 36,
+            "label": "slalom",
+            "children": []
+          },
+          {
+            "id": 138,
+            "label": "straight",
+            "children": []
+          },
+          {
+            "id": 136,
+            "label": "to and fro",
+            "children": []
+          },
+          {
+            "id": 35,
+            "label": "turn",
+            "children": []
+          },
+          {
+            "id": 126,
+            "label": "up",
+            "children": []
+          },
+          {
+            "id": 15,
+            "label": "upward",
+            "children": []
+          },
+          {
+            "id": 114,
+            "label": "vertical",
+            "children": []
+          },
+          {
+            "id": 38,
+            "label": "zigzag",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 146,
+        "label": "emotion",
+        "children": [
+          {
+            "id": 148,
+            "label": "neutral",
+            "children": []
+          },
+          {
+            "id": 147,
+            "label": "sad",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 89,
+        "label": "handedness",
+        "children": [
+          {
+            "id": 90,
+            "label": "left handed",
+            "children": []
+          },
+          {
+            "id": 91,
+            "label": "right handed",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "label": "perturbation",
+        "children": [
+          {
+            "id": 66,
+            "label": "origin",
+            "children": [
+              {
+                "id": 70,
+                "label": "behind",
+                "children": []
+              },
+              {
+                "id": 69,
+                "label": "front",
+                "children": []
+              },
+              {
+                "id": 67,
+                "label": "left",
+                "children": []
+              },
+              {
+                "id": 68,
+                "label": "right",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 27,
+            "label": "result",
+            "children": [
+              {
+                "id": 28,
+                "label": "failing",
+                "children": []
+              },
+              {
+                "id": 26,
+                "label": "recovery",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 29,
+            "label": "source",
+            "children": [
+              {
+                "id": 30,
+                "label": "active",
+                "children": []
+              },
+              {
+                "id": 31,
+                "label": "passive",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 71,
+            "label": "strength",
+            "children": [
+              {
+                "id": 74,
+                "label": "hard",
+                "children": []
+              },
+              {
+                "id": 73,
+                "label": "medium",
+                "children": []
+              },
+              {
+                "id": 72,
+                "label": "soft",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 82,
+        "label": "repetition",
+        "children": [
+          {
+            "id": 83,
+            "label": "once",
+            "children": []
+          },
+          {
+            "id": 84,
+            "label": "periodic",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 182,
+        "label": "sensor",
+        "children": [
+          {
+            "id": 203,
+            "label": "audio",
+            "children": []
+          },
+          {
+            "id": 190,
+            "label": "azure_kinect",
+            "children": []
+          },
+          {
+            "id": 193,
+            "label": "cyberglove",
+            "children": []
+          },
+          {
+            "id": 199,
+            "label": "emg",
+            "children": []
+          },
+          {
+            "id": 197,
+            "label": "force_1D",
+            "children": []
+          },
+          {
+            "id": 196,
+            "label": "force_3D",
+            "children": []
+          },
+          {
+            "id": 200,
+            "label": "force_plate",
+            "children": []
+          },
+          {
+            "id": 198,
+            "label": "force_torque",
+            "children": []
+          },
+          {
+            "id": 191,
+            "label": "gopro",
+            "children": []
+          },
+          {
+            "id": 194,
+            "label": "imu_bluetrident",
+            "children": []
+          },
+          {
+            "id": 195,
+            "label": "imu_bosch",
+            "children": []
+          },
+          {
+            "id": 192,
+            "label": "kinect2",
+            "children": []
+          },
+          {
+            "id": 201,
+            "label": "myo_wristband",
+            "children": []
+          },
+          {
+            "id": 202,
+            "label": "posturomed",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 121,
+        "label": "specification",
+        "children": [
+          {
+            "id": 168,
+            "label": "blindfolded",
+            "children": []
+          },
+          {
+            "id": 122,
+            "label": "freestyle",
+            "children": []
+          },
+          {
+            "id": 123,
+            "label": "picture",
+            "children": []
+          },
+          {
+            "id": 156,
+            "label": "text",
+            "children": []
+          },
+          {
+            "id": 124,
+            "label": "video",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "label": "speed",
+        "children": [
+          {
+            "id": 13,
+            "label": "fast",
+            "children": []
+          },
+          {
+            "id": 32,
+            "label": "medium",
+            "children": []
+          },
+          {
+            "id": 12,
+            "label": "slow",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "label": "motion",
+    "children": [
+      {
+        "id": 178,
+        "label": "calibration",
+        "children": []
+      },
+      {
+        "id": 53,
+        "label": "gesticulation",
+        "children": [
+          {
+            "id": 109,
+            "label": "bend",
+            "children": []
+          },
+          {
+            "id": 61,
+            "label": "bow",
+            "children": []
+          },
+          {
+            "id": 57,
+            "label": "clap",
+            "children": []
+          },
+          {
+            "id": 117,
+            "label": "gesticulate",
+            "children": []
+          },
+          {
+            "id": 62,
+            "label": "laugh",
+            "children": []
+          },
+          {
+            "id": 58,
+            "label": "nod",
+            "children": []
+          },
+          {
+            "id": 54,
+            "label": "point",
+            "children": []
+          },
+          {
+            "id": 133,
+            "label": "rotate",
+            "children": []
+          },
+          {
+            "id": 56,
+            "label": "shake",
+            "children": []
+          },
+          {
+            "id": 60,
+            "label": "shrug",
+            "children": []
+          },
+          {
+            "id": 55,
+            "label": "wave",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 169,
+        "label": "grasps",
+        "children": [
+          {
+            "id": 170,
+            "label": "cylinder",
+            "children": []
+          },
+          {
+            "id": 172,
+            "label": "disk",
+            "children": []
+          },
+          {
+            "id": 174,
+            "label": "lateral",
+            "children": []
+          },
+          {
+            "id": 173,
+            "label": "pinch",
+            "children": []
+          },
+          {
+            "id": 177,
+            "label": "power",
+            "children": []
+          },
+          {
+            "id": 176,
+            "label": "precision",
+            "children": []
+          },
+          {
+            "id": 171,
+            "label": "sphere",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "label": "locomotion",
+        "children": [
+          {
+            "id": 2,
+            "label": "bipedal",
+            "children": [
+              {
+                "id": 99,
+                "label": "balance",
+                "children": []
+              },
+              {
+                "id": 40,
+                "label": "jump",
+                "children": []
+              },
+              {
+                "id": 4,
+                "label": "run",
+                "children": []
+              },
+              {
+                "id": 3,
+                "label": "walk",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 43,
+            "label": "climb",
+            "children": []
+          },
+          {
+            "id": 44,
+            "label": "crawl",
+            "children": []
+          },
+          {
+            "id": 150,
+            "label": "go downstairs",
+            "children": []
+          },
+          {
+            "id": 149,
+            "label": "go upstairs",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 46,
+        "label": "manipulation",
+        "children": [
+          {
+            "id": 205,
+            "label": "bimanual",
+            "children": []
+          },
+          {
+            "id": 39,
+            "label": "carry",
+            "children": []
+          },
+          {
+            "id": 187,
+            "label": "close",
+            "children": []
+          },
+          {
+            "id": 131,
+            "label": "comb",
+            "children": []
+          },
+          {
+            "id": 145,
+            "label": "cut",
+            "children": []
+          },
+          {
+            "id": 116,
+            "label": "dab",
+            "children": []
+          },
+          {
+            "id": 106,
+            "label": "drag",
+            "children": []
+          },
+          {
+            "id": 152,
+            "label": "drink",
+            "children": []
+          },
+          {
+            "id": 51,
+            "label": "drop",
+            "children": []
+          },
+          {
+            "id": 88,
+            "label": "dry",
+            "children": []
+          },
+          {
+            "id": 175,
+            "label": "grasp",
+            "children": []
+          },
+          {
+            "id": 185,
+            "label": "handover",
+            "children": []
+          },
+          {
+            "id": 143,
+            "label": "hand over",
+            "children": []
+          },
+          {
+            "id": 49,
+            "label": "hold",
+            "children": []
+          },
+          {
+            "id": 135,
+            "label": "inspect",
+            "children": []
+          },
+          {
+            "id": 159,
+            "label": "lift",
+            "children": []
+          },
+          {
+            "id": 104,
+            "label": "mix",
+            "children": []
+          },
+          {
+            "id": 128,
+            "label": "open",
+            "children": []
+          },
+          {
+            "id": 188,
+            "label": "peel",
+            "children": []
+          },
+          {
+            "id": 50,
+            "label": "pick",
+            "children": []
+          },
+          {
+            "id": 78,
+            "label": "place",
+            "children": []
+          },
+          {
+            "id": 151,
+            "label": "play an instrument",
+            "children": []
+          },
+          {
+            "id": 103,
+            "label": "pour",
+            "children": []
+          },
+          {
+            "id": 48,
+            "label": "pull",
+            "children": []
+          },
+          {
+            "id": 47,
+            "label": "push",
+            "children": []
+          },
+          {
+            "id": 130,
+            "label": "put",
+            "children": []
+          },
+          {
+            "id": 157,
+            "label": "remove",
+            "children": []
+          },
+          {
+            "id": 189,
+            "label": "roll out",
+            "children": []
+          },
+          {
+            "id": 186,
+            "label": "scoop",
+            "children": []
+          },
+          {
+            "id": 158,
+            "label": "scratch",
+            "children": []
+          },
+          {
+            "id": 144,
+            "label": "screw",
+            "children": []
+          },
+          {
+            "id": 100,
+            "label": "scrub",
+            "children": []
+          },
+          {
+            "id": 86,
+            "label": "shower",
+            "children": []
+          },
+          {
+            "id": 184,
+            "label": "stir",
+            "children": []
+          },
+          {
+            "id": 98,
+            "label": "support",
+            "children": []
+          },
+          {
+            "id": 52,
+            "label": "sweep",
+            "children": []
+          },
+          {
+            "id": 125,
+            "label": "take",
+            "children": []
+          },
+          {
+            "id": 77,
+            "label": "throw",
+            "children": []
+          },
+          {
+            "id": 160,
+            "label": "tilt",
+            "children": []
+          },
+          {
+            "id": 105,
+            "label": "touch",
+            "children": []
+          },
+          {
+            "id": 204,
+            "label": "transfer",
+            "children": []
+          },
+          {
+            "id": 85,
+            "label": "wash",
+            "children": []
+          },
+          {
+            "id": 87,
+            "label": "wipe",
+            "children": []
+          },
+          {
+            "id": 129,
+            "label": "with assistance",
+            "children": []
+          },
+          {
+            "id": 107,
+            "label": "zoom",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 79,
+        "label": "poses",
+        "children": [
+          {
+            "id": 45,
+            "label": "hang",
+            "children": []
+          },
+          {
+            "id": 75,
+            "label": "kneel",
+            "children": []
+          },
+          {
+            "id": 76,
+            "label": "lean",
+            "children": []
+          },
+          {
+            "id": 42,
+            "label": "lie",
+            "children": []
+          },
+          {
+            "id": 41,
+            "label": "sit",
+            "children": []
+          },
+          {
+            "id": 102,
+            "label": "stand",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 108,
+        "label": "random",
+        "children": []
+      },
+      {
+        "id": 20,
+        "label": "sport",
+        "children": [
+          {
+            "id": 179,
+            "label": "basketball",
+            "children": []
+          },
+          {
+            "id": 23,
+            "label": "cartwheel",
+            "children": []
+          },
+          {
+            "id": 63,
+            "label": "dance",
+            "children": []
+          },
+          {
+            "id": 22,
+            "label": "handstand",
+            "children": []
+          },
+          {
+            "id": 65,
+            "label": "jumping jack",
+            "children": []
+          },
+          {
+            "id": 24,
+            "label": "kick",
+            "children": []
+          },
+          {
+            "id": 154,
+            "label": "play golf",
+            "children": []
+          },
+          {
+            "id": 155,
+            "label": "play tennis",
+            "children": []
+          },
+          {
+            "id": 64,
+            "label": "punch",
+            "children": []
+          },
+          {
+            "id": 21,
+            "label": "squat",
+            "children": []
+          },
+          {
+            "id": 153,
+            "label": "stomp",
+            "children": []
+          },
+          {
+            "id": 180,
+            "label": "swim",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "label": "voice",
+    "children": [
+      {
+        "id": 119,
+        "label": "give instructions",
+        "children": []
+      }
+    ]
+  }
+]

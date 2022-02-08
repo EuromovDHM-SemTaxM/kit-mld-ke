@@ -1,0 +1,124 @@
+[
+  {
+    "id": 1,
+    "name": "Human Interaction",
+    "children": [
+      {
+        "id": 1,
+        "description": "two subjects"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Interaction with Environment",
+    "children": [
+      {
+        "id": 1,
+        "description": "playground"
+      },
+      {
+        "id": 2,
+        "description": "uneven terrain"
+      },
+      {
+        "id": 3,
+        "description": "path with obstacles"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Locomotion",
+    "children": [
+      {
+        "id": 1,
+        "description": "running"
+      },
+      {
+        "id": 2,
+        "description": "walking"
+      },
+      {
+        "id": 3,
+        "description": "jumping"
+      },
+      {
+        "id": 4,
+        "description": "varied"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Physical Activities & Sports",
+    "children": [
+      {
+        "id": 1,
+        "description": "basketball"
+      },
+      {
+        "id": 2,
+        "description": "dance"
+      },
+      {
+        "id": 3,
+        "description": "gymnastics"
+      },
+      {
+        "id": 4,
+        "description": "acrobatics"
+      },
+      {
+        "id": 5,
+        "description": "martial arts"
+      },
+      {
+        "id": 6,
+        "description": "racquet/paddle sports"
+      },
+      {
+        "id": 7,
+        "description": "soccer"
+      },
+      {
+        "id": 8,
+        "description": "boxing"
+      },
+      {
+        "id": 9,
+        "description": "general exercise and stretching"
+      },
+      {
+        "id": 10,
+        "description": "golf"
+      },
+      {
+        "id": 11,
+        "description": "frisbee"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Situations & Scenarios",
+    "children": [
+      {
+        "id": 1,
+        "description": "common behaviors and expressions"
+      },
+      {
+        "id": 2,
+        "description": "pantomime"
+      },
+      {
+        "id": 3,
+        "description": "communication gestures and signals"
+      },
+      {
+        "id": 4,
+        "description": "cross-category variety"
+      }
+    ]
+  }
+]
