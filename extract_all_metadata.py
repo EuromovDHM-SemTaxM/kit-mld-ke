@@ -50,6 +50,7 @@ def extract_cmu_suject_categorized_trials(url, cat, subcat, subject_trial_index)
 
     return subject_trial_index
 
+
 def extract_cmu_all_trials(subject_trial_index):
     import requests
     from bs4 import BeautifulSoup
@@ -73,8 +74,14 @@ def extract_cmu_all_trials(subject_trial_index):
                     subject_trial_index[current_subject] = {}
             if re.match("[1-9]+", title):
                 if int(title) not in subject_trial_index[current_subject]:
+                    motions_class = ""
+                    if len(content.split(" ")) == 1 and  "_" in content:
+                        motions_class = content
+                        content = ""
                     subject_trial_index[current_subject][int(title)] = \
                         {'trial': int(title), 'description': content}
+                    if len(motions_class) > 0:
+                        subject_trial_index[current_subject][int(title)].update({'class': motions_class})
 
     return subject_trial_index
 
@@ -109,7 +116,8 @@ def extract_cmu_taxonomy():
             sdescr = slink.text
             sid = int(shref.split('&')[1].split('=')[1])
             children.append({'id': sid, 'description': sdescr})
-            motion_registry = extract_cmu_suject_categorized_trials("http://mocap.cs.cmu.edu/" + shref, id, sid, motion_registry)
+            motion_registry = extract_cmu_suject_categorized_trials("http://mocap.cs.cmu.edu/" + shref, id, sid,
+                                                                    motion_registry)
 
         taxonomy.append({'id': id, 'name': descr, 'children': children})
 
