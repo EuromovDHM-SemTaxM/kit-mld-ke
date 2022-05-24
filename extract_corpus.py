@@ -1,6 +1,5 @@
 import sys
-
-from vtk.util._argparse import ArgumentParser
+from argparse import ArgumentParser
 
 if __name__ == "__main__":
     argv = sys.argv[1:]
