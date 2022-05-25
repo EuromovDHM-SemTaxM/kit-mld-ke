@@ -12,7 +12,10 @@ from tqdm import tqdm
 
 from sentence_transformers import SentenceTransformer, util
 
-model = SentenceTransformer('paraphrase-multilingual-mpnet-base-v2')
+model_name = 'paraphrase-multilingual-mpnet-base-v2'
+model = SentenceTransformer(model_name)
+
+threshold = 0.2
 
 
 def cluster_similar_expressions(ordered_dict, threshold=0.4):
@@ -49,7 +52,7 @@ sentences_df = pandas.read_csv(
     "sentences_corrections.tsv",
     sep='\t', header=None)
 
-corpus = sentences_df.iloc[:, 0].tolist()
+corpus = sentences_df.iloc[:, 1].tolist()
 
 import requests
 
@@ -90,10 +93,10 @@ for condition in matched_conditions:
     for entry in cond_histogram.items():
         words_col.append(entry[0])
         counts_col.append(entry[1])
-    clustered_histogram = cluster_similar_expressions(cond_histogram, 0.2)
+    clustered_histogram = cluster_similar_expressions(cond_histogram, threshold)
     clustered_histogram = sorted(clustered_histogram.items(), reverse=True, key=lambda t: t[1])
     print(clustered_histogram)
-    with open(f"semantic_clusters_{condition}.tsv", "w") as f:
+    with open(f"semantic_clusters_{condition}_{model_name}.tsv", "w") as f:
         f.write(f"terms\tcount\n")
         for item in clustered_histogram:
             f.write(f"{item[0]}\t{item[1]}\n")
