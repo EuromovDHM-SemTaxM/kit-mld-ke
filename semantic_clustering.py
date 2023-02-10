@@ -92,7 +92,7 @@ for sentence in tqdm(corpus):
     # print("Sentence: "+ sentence)
     url = f"http://localhost:8080/predict/semantics?{urlencode({'utterance': sentence})}"
     response = get(url, {})
-    response = json.loads(response.text)
+    response = json.loads(response)
 
     if 'props' in response:
         for prop in response['props']:
