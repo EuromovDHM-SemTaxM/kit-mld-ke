@@ -98,8 +98,8 @@ for sentence in tqdm(corpus):
         for prop in response['props']:
             spans = prop['spans']
             for span in spans:
-                for condition, value in conditions.items():
-                    if value[0](span):
+                for condition in conditions:
+                    if conditions[condition][0](span):
                         if condition not in matched_conditions:
                             matched_conditions[condition] = []
                         matched_conditions[condition].append((conditions[condition][1](span),prop['sense']))
@@ -108,8 +108,9 @@ for sentence in tqdm(corpus):
     #     break
 model = SentenceTransformer(model_name)
 
-for condition, cond_list in matched_conditions.items():
+for condition in matched_conditions:
     print(f"****{condition}****")
+    cond_list = matched_conditions[condition]
     cond_histogram = dict(collections.Counter(cond_list))
     words_col = []
     counts_col = []
@@ -122,4 +123,4 @@ for condition, cond_list in matched_conditions.items():
     with open(f"semantic_clusters_{condition}_{model_name}.tsv", "w") as f:
         f.write(f"terms\tcount\n")
         for item in clustered_histogram:
-            f.write(f"{item[0]}\t{item[1]}\t{item[2]}\n")
+            f.write(f"{item[0]}\t{item[1]}\n")
